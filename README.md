@@ -27,11 +27,9 @@ handle "Win64").
 
 The project is for Visual Studio 2015.
 
-I forget which ZMQ version I used. I think it's either 4.1.4 or 4.0.4
-but it is very easy to replace what is there now. Also, I am using the
-DLL version of ZMQ. That adds extra work placing the DLL where it needs
-to be. I plan on changing to full-static so I will update this Git at
-some point--if it hasn't been done by another already.
+I used ZMQ version 4.0.4 but it is very easy to replace what is there
+now. Also, I am using the DLL version of ZMQ. That adds extra work
+placing the DLL where it needs to be so the game/editor can find it.
 
 The biggest hurdle was the fact that UE4 and ZMQ treat "short" in two
 different ways. As with the poll item struct, it is important that any
